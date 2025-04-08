@@ -27,7 +27,7 @@ export function Submenu() {
         <section className={styles.submenu}>
             <div className={styles.submenuIcon} onClick={toggleMenu}>
                 <Menu size={24} color="#121212" />
-                Menu
+                Serviços
             </div>
             <ul className={`${styles.ul} ${isOpen ? styles.open : ""}`}>
                 {isOpen && (
